@@ -58,26 +58,25 @@
         /* Main content styles */
         section {
             margin-bottom: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
         }
 
         .profile-group {
-            width: 48%;
             display: flex;
-            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
         }
 
         .profile {
-            width: 48%;
+            width: 22%;
             background-color: #fff;
             padding: 20px;
-            border-radius: 5px;
+            border-radius: 50%;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
             transition: transform 0.3s ease;
-            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .profile:hover {
@@ -115,11 +114,13 @@
             }
 
             .profile-group {
-                width: 100%;
+                flex-direction: column;
+                align-items: center;
             }
 
             .profile {
                 width: 100%;
+                margin-bottom: 20px;
             }
         }
     </style>
@@ -154,9 +155,7 @@
                 <p>Phone: +1 (513) 276-2844</p>
                 <p>Email: shaikhl@mail.uc.edu</p>
             </div>
-        </div>
 
-        <div class="profile-group">
             <div class="profile" style="background-color: #43aa8b;">
                 <img src="Picture3.jpg" alt="Jitendra's image">
                 <h3>Jitendra Chowdary Chava</h3>
