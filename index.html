@@ -57,7 +57,7 @@
 
         /* Main content styles */
         section {
-            margin: 20px 0;
+            margin-bottom: 20px;
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
@@ -72,14 +72,18 @@
 
         p {
             color: #555;
+            margin-bottom: 15px;
         }
 
-        ul {
-            list-style: none;
-            padding: 0;
+        .profile {
+            text-align: center;
         }
 
-        ul li {
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
             margin-bottom: 10px;
         }
 
@@ -123,13 +127,45 @@
 
     <section id="about">
         <h2>About Us</h2>
-        <p>We are a group of enthusiastic individuals passionate about web development and security.</p>
-        <ul>
-            <li><strong>Team Leader:</strong> Sai Krishna MadiShetty <img src="Picture1.jpg" alt="Krishna's image">- <a href="https://madishsn.github.io/">Profile</a>, Phone: +1 (513) 302-2250, Email: madishsn@mail.uc.edu</li>
-            <li><strong>Team Member:</strong> Hadeel Shaik <img src="Picture2.jpg" alt="Hadeel's image">- <a href="https://shaikhl-12.github.io/">Profile</a>, Phone: +1 (513) 276-2844, Email: shaikhl@mail.uc.edu</li>
-            <li><strong>Team Member:</strong> Jitendra Chowdary Chava <img src="Picture3.jpg" alt="Jitendra's image">- <a href="https://chavajy.github.io/">Profile</a>, Phone: +1 (513) 399-0762, Email: chavajy@mail.uc.edu</li>
-            <li><strong>Team Member:</strong> Pranay Reddy Karra <img src="Picture4.jpg" alt="Praneeth's image"> - <a href="https://praneethreddykarra.github.io/">Profile</a>, Phone: +1 (513) 399-0807, Email: karrapy@mail.uc.edu</li>
-        </ul>
+        <div class="profile">
+            <img src="Picture1.jpg" alt="Krishna's image">
+            <h3>Sai Krishna MadiShetty</h3>
+            <p>Team Leader</p>
+            <p>Passionate about web development and security.</p>
+            <p>Profile: <a href="https://madishsn.github.io/">madishsn.github.io</a></p>
+            <p>Phone: +1 (513) 302-2250</p>
+            <p>Email: madishsn@mail.uc.edu</p>
+        </div>
+
+        <div class="profile">
+            <img src="Picture2.jpg" alt="Hadeel's image">
+            <h3>Hadeel Shaik</h3>
+            <p>Team Member</p>
+            <p>Passionate about web development and security.</p>
+            <p>Profile: <a href="https://shaikhl-12.github.io/">shaikhl-12.github.io</a></p>
+            <p>Phone: +1 (513) 276-2844</p>
+            <p>Email: shaikhl@mail.uc.edu</p>
+        </div>
+
+        <div class="profile">
+            <img src="Picture3.jpg" alt="Jitendra's image">
+            <h3>Jitendra Chowdary Chava</h3>
+            <p>Team Member</p>
+            <p>Passionate about web development and security.</p>
+            <p>Profile: <a href="https://chavajy.github.io/">chavajy.github.io</a></p>
+            <p>Phone: +1 (513) 399-0762</p>
+            <p>Email: chavajy@mail.uc.edu</p>
+        </div>
+
+        <div class="profile">
+            <img src="Picture4.jpg" alt="Praneeth's image">
+            <h3>Pranay Reddy Karra</h3>
+            <p>Team Member</p>
+            <p>Passionate about web development and security.</p>
+            <p>Profile: <a href="https://praneethreddykarra.github.io/">praneethreddykarra.github.io</a></p>
+            <p>Phone: +1 (513) 399-0807</p>
+            <p>Email: karrapy@mail.uc.edu</p>
+        </div>
     </section>
 
     <section id="contact">
@@ -141,12 +177,6 @@
             <li>Jitendra Chowdary Chava - Phone: +1 (513) 399-0762, Email: chavajy@mail.uc.edu</li>
             <li>Pranay Reddy Karra - Phone: +1 (513) 399-0807, Email: karrapy@mail.uc.edu</li>
         </ul>
-    </section>
-
-    <section id="video">
-        <h2>Watch Our Video</h2>
-        <!-- Add your video embed code or link here -->
-        <p>Video link: <a href="#">[Add Video Link]</a></p>
     </section>
 
     <footer>
