@@ -59,17 +59,25 @@
         section {
             margin-bottom: 20px;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
         }
 
+        .profile-group {
+            width: 48%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
         .profile {
-            width: 23%;
+            width: 48%;
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             text-align: center;
             transition: transform 0.3s ease;
+            margin-bottom: 20px;
         }
 
         .profile:hover {
@@ -106,9 +114,12 @@
                 margin-bottom: 10px;
             }
 
+            .profile-group {
+                width: 100%;
+            }
+
             .profile {
                 width: 100%;
-                margin-bottom: 20px;
             }
         }
     </style>
@@ -123,44 +134,48 @@
     <section id="about">
         <h2>About Us</h2>
 
-        <div class="profile" style="background-color: #ff9f43;">
-            <img src="Picture1.jpg" alt="Krishna's image">
-            <h3>Sai Krishna MadiShetty</h3>
-            <p>Team Leader</p>
-            <p>Passionate about web development and security.</p>
-            <p>Profile: <a href="https://madishsn.github.io/">madishsn.github.io</a></p>
-            <p>Phone: +1 (513) 302-2250</p>
-            <p>Email: madishsn@mail.uc.edu</p>
+        <div class="profile-group">
+            <div class="profile" style="background-color: #ff9f43;">
+                <img src="Picture1.jpg" alt="Krishna's image">
+                <h3>Sai Krishna MadiShetty</h3>
+                <p>Team Leader</p>
+                <p>Passionate about web development and security.</p>
+                <p>Profile: <a href="https://madishsn.github.io/">madishsn.github.io</a></p>
+                <p>Phone: +1 (513) 302-2250</p>
+                <p>Email: madishsn@mail.uc.edu</p>
+            </div>
+
+            <div class="profile" style="background-color: #4bcffa;">
+                <img src="Picture2.jpg" alt="Hadeel's image">
+                <h3>Hadeel Shaik</h3>
+                <p>Team Member</p>
+                <p>Passionate about web development and security.</p>
+                <p>Profile: <a href="https://shaikhl-12.github.io/">shaikhl-12.github.io</a></p>
+                <p>Phone: +1 (513) 276-2844</p>
+                <p>Email: shaikhl@mail.uc.edu</p>
+            </div>
         </div>
 
-        <div class="profile" style="background-color: #4bcffa;">
-            <img src="Picture2.jpg" alt="Hadeel's image">
-            <h3>Hadeel Shaik</h3>
-            <p>Team Member</p>
-            <p>Passionate about web development and security.</p>
-            <p>Profile: <a href="https://shaikhl-12.github.io/">shaikhl-12.github.io</a></p>
-            <p>Phone: +1 (513) 276-2844</p>
-            <p>Email: shaikhl@mail.uc.edu</p>
-        </div>
+        <div class="profile-group">
+            <div class="profile" style="background-color: #43aa8b;">
+                <img src="Picture3.jpg" alt="Jitendra's image">
+                <h3>Jitendra Chowdary Chava</h3>
+                <p>Team Member</p>
+                <p>Passionate about web development and security.</p>
+                <p>Profile: <a href="https://chavajy.github.io/">chavajy.github.io</a></p>
+                <p>Phone: +1 (513) 399-0762</p>
+                <p>Email: chavajy@mail.uc.edu</p>
+            </div>
 
-        <div class="profile" style="background-color: #43aa8b;">
-            <img src="Picture3.jpg" alt="Jitendra's image">
-            <h3>Jitendra Chowdary Chava</h3>
-            <p>Team Member</p>
-            <p>Passionate about web development and security.</p>
-            <p>Profile: <a href="https://chavajy.github.io/">chavajy.github.io</a></p>
-            <p>Phone: +1 (513) 399-0762</p>
-            <p>Email: chavajy@mail.uc.edu</p>
-        </div>
-
-        <div class="profile" style="background-color: #fa983a;">
-            <img src="Picture4.jpg" alt="Praneeth's image">
-            <h3>Pranay Reddy Karra</h3>
-            <p>Team Member</p>
-            <p>Passionate about web development and security.</p>
-            <p>Profile: <a href="https://praneethreddykarra.github.io/">praneethreddykarra.github.io</a></p>
-            <p>Phone: +1 (513) 399-0807</p>
-            <p>Email: karrapy@mail.uc.edu</p>
+            <div class="profile" style="background-color: #fa983a;">
+                <img src="Picture4.jpg" alt="Praneeth's image">
+                <h3>Pranay Reddy Karra</h3>
+                <p>Team Member</p>
+                <p>Passionate about web development and security.</p>
+                <p>Profile: <a href="https://praneethreddykarra.github.io/">praneethreddykarra.github.io</a></p>
+                <p>Phone: +1 (513) 399-0807</p>
+                <p>Email: karrapy@mail.uc.edu</p>
+            </div>
         </div>
     </section>
 
@@ -171,4 +186,3 @@
 </body>
 
 </html>
-
