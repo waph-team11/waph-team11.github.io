@@ -1,156 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <style>
-    body {
-    background-color: #f8f9fa; /* Light gray background */
-    color: #212529; /* Dark text color */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-
-header h1 {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.profile {
-    margin-bottom: 20px;
-}
-
-.profile-card {
-    background-color: #ffffff; /* White background for cards */
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-}
-
-.profile-card img.headshot {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 5px solid #f8f9fa; /* Light border around the image */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-}
-
-.profile-card h3 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.email-link {
-    margin-top: 5px;
-}
-
-.email-link a {
-    color: #007bff; /* Blue email link color */
-    text-decoration: none;
-}
-
-.email-link a:hover {
-    text-decoration: underline;
-}
-
-.github-icon {
-    color: #6c757d; /* Gray GitHub icon color */
-    margin-left: 10px;
-    font-size: 1.2rem; /* Adjust icon size */
-    transition: color 0.3s; /* Smooth color transition on hover */
-}
-
-.github-icon:hover {
-    color: #212529; /* Dark gray on hover */
-}
-
-.project-info {
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.project-info h2 {
-    margin-top: 0;
-}
-
-.project-info ul {
-    list-style-type: none;
-    padding-left:
-        </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Facebook Project Profiles</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+    <title>WAPH Team 11</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header class="text-center mb-4">
-        <h1>Meet Our Team Members</h1>
-        <p class="lead">Mini Facebook Project</p>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="profile col">
-                <div class="profile-card">
-                    <img src="Picture1.jpg" alt="Krishna's Headshot" class="headshot">
-                    <h3>Sai Krishna Madishetty</h3>
-                    <p class="email-link"><a href="mailto:madishsn@mail.uc.edu">madishsn@mail.uc.edu</a> <a href="https://github.com/madishsn" target="_blank" class="github-icon"><i class="fab fa-github"></i></a></p>
-                    <p>Profile: <a href="https://madishsn.github.io">https://madishsn.github.io</a></p>
-                </div>
-            </div>
-            <div class="profile col">
-                <div class="profile-card">
-                    <img src="Picture2.jpg" alt="Hadeel's Headshot" class="headshot">
-                    <h3>Hadeel Shaik</h3>
-                    <p class="email-link"><a href="mailto:shaikhl@mail.uc.edu">shaikhl@mail.uc.edu</a> <a href="https://github.com/shaikhl-12" target="_blank" class="github-icon"><i class="fab fa-github"></i></a></p>
-                    <p>Profile: <a href="https://shaikhl-12.github.io">https://shaikhl-12.github.io</a></p>
-                </div>
-            </div>
-            <div class="profile col">
-                <div class="profile-card">
-                    <img src="Picture3.jpg" alt="Jitendra's Headshot" class="headshot">
-                    <h3>Jitendra Chowdary</h3>
-                    <p class="email-link"><a href="mailto:chavajy@mail.uc.edu">chavajy@mail.uc.edu</a> <a href="https://github.com/chavajy" target="_blank" class="github-icon"><i class="fab fa-github"></i></a></p>
-                    <p>Profile: <a href="https://chavajy.github.io">https://chavajy.github.io</a></p>
-                </div>
-            </div>
-            <div class="profile col">
-                <div class="profile-card">
-                    <img src="Picture4.jpg" alt="Praneeth's Headshot" class="headshot">
-                    <h3>Praneeth Reddy Karra</h3>
-                    <p class="email-link"><a href="mailto:karrapy@mail.uc.edu">karrapy@mail.uc.edu</a> <a href="https://praneethreddykarra.github.io/" target="_blank" class="github-icon"><i class="fab fa-github"></i></a></p>
-                    <p>Profile: <a href="https://karrapy.github.io">https://karrapy.github.io</a></p>
-                </div>
-            </div>
-        </div>
+    <section id="home">
+        <h1>Welcome to WAPH Team 11 Website</h1>
+        <p>This is the homepage of our web application programming and hacking team.</p>
+    </section>
 
-        <!-- Project Information -->
-        <section class="project-info">
-            <h2>Project Management Information</h2>
-            <ul>
-                <li>
-                    <a href="https://github.com/waph-team11/waph-teamproject" target="_blank" class="project-link">Source code repository (private access)</a>
-                </li>
-                <li>
-                    <a href="https://github.com/waph-team11/waph-team11.github.io" target="_blank" class="project-link">Project homepage (public)</a>
-                </li>
-            </ul>
-        </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a group of enthusiastic individuals passionate about web development and security.</p>
+        <ul>
+            <li><strong>Team Leader:</strong> Sai Krishna MadiShetty - <a href="https://madishsn.github.io/">Profile</a>, Phone: +1 (513) 302-2250, Email: madishsn@mail.uc.edu</li>
+            <li><strong>Team Member:</strong> Hadeel Shaik - <a href="https://shaikhl-12.github.io/">Profile</a>, Phone: +1 (513) 276-2844, Email: shaikhl@mail.uc.edu</li>
+            <li><strong>Team Member:</strong> Jitendra Chowdary Chava - <a href="https://chavajy.github.io/">Profile</a>, Phone: +1 (513) 399-0762, Email: chavajy@mail.uc.edu</li>
+            <li><strong>Team Member:</strong> Pranay Reddy Karra - <a href="https://praneethreddykarra.github.io/">Profile</a>, Phone: +1 (513) 399-0807, Email: karrapy@mail.uc.edu</li>
+        </ul>
+    </section>
 
-        <!-- Video Section -->
-        <div class="video-section">
-            <h2>Video Demonstration</h2>
-            <a href="#" class="video-link" target="_blank">Click here for video demonstration</a>
-        </div>
-    </div>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>You can reach out to us using the following contact information:</p>
+        <ul>
+            <li>Sai Krishna MadiShetty - Phone: +1 (513) 302-2250, Email: madishsn@mail.uc.edu</li>
+            <li>Hadeel Shaik - Phone: +1 (513) 276-2844, Email: shaikhl@mail.uc.edu</li>
+            <li>Jitendra Chowdary Chava - Phone: +1 (513) 399-0762, Email: chavajy@mail.uc.edu</li>
+            <li>Pranay Reddy Karra - Phone: +1 (513) 399-0807, Email: karrapy@mail.uc.edu</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 WAPH Team 11</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
+
