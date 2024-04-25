@@ -58,25 +58,29 @@
         /* Main content styles */
         section {
             margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .profile {
+            width: 23%;
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
+            text-align: center;
+            transition: transform 0.3s ease;
         }
 
-        .profile {
-            text-align: center;
-            width: 48%;
-            margin-bottom: 20px;
+        .profile:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
         }
 
         .profile img {
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             object-fit: cover;
             margin-bottom: 10px;
         }
@@ -104,6 +108,7 @@
 
             .profile {
                 width: 100%;
+                margin-bottom: 20px;
             }
         }
     </style>
@@ -125,7 +130,8 @@
 
     <section id="about">
         <h2>About Us</h2>
-        <div class="profile">
+
+        <div class="profile" style="background-color: #ff9f43;">
             <img src="Picture1.jpg" alt="Krishna's image">
             <h3>Sai Krishna MadiShetty</h3>
             <p>Team Leader</p>
@@ -135,7 +141,7 @@
             <p>Email: madishsn@mail.uc.edu</p>
         </div>
 
-        <div class="profile">
+        <div class="profile" style="background-color: #4bcffa;">
             <img src="Picture2.jpg" alt="Hadeel's image">
             <h3>Hadeel Shaik</h3>
             <p>Team Member</p>
@@ -145,7 +151,7 @@
             <p>Email: shaikhl@mail.uc.edu</p>
         </div>
 
-        <div class="profile">
+        <div class="profile" style="background-color: #43aa8b;">
             <img src="Picture3.jpg" alt="Jitendra's image">
             <h3>Jitendra Chowdary Chava</h3>
             <p>Team Member</p>
@@ -155,7 +161,7 @@
             <p>Email: chavajy@mail.uc.edu</p>
         </div>
 
-        <div class="profile">
+        <div class="profile" style="background-color: #fa983a;">
             <img src="Picture4.jpg" alt="Praneeth's image">
             <h3>Pranay Reddy Karra</h3>
             <p>Team Member</p>
@@ -184,3 +190,4 @@
 </body>
 
 </html>
+
